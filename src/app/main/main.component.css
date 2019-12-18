@@ -1,0 +1,174 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    perspective: 65em;
+    perspective-origin: 50% calc(50% - 25em);
+    background: #000;
+}
+
+.assemblyleft {
+    position: absolute;
+}
+
+.assemblyright {
+    position: absolute;
+}
+
+.barleft {
+    /*transform-origin: 0 2.5em 0;*/
+    /*animation: grow 8s cubic-bezier(0.19, 1, 0.23, 1) ;*/
+    animation-duration:3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-top:-200%;
+        margin-left:200px;
+    }
+  
+    75% {
+      margin-top:0%;
+    }
+  
+    to {
+      margin-left: 0%;
+      margin-left:200px;
+    }
+  }
+  .barleft:nth-child(1) {
+    transform: scaleY(1);
+    margin-left:200px;
+    color: #7ed6be;
+}
+.barleft:nth-child(2) {
+    transform: scaleY(1);
+    margin-left:200px;
+    color: #ecf081;
+}
+.barleft:nth-child(3) {
+    transform: scaleY(1);
+    margin-left:200px;
+    color: #ffbe40;
+}
+.barright {
+    /*transform-origin: 0 2.5em 0;*/
+    /*animation: grow 8s cubic-bezier(0.19, 1, 0.23, 1) ;*/
+    animation-duration:3s;
+    animation-name: slideinright;
+}
+
+@keyframes slideinright {
+    from {
+        margin-top:-200%;
+        margin-left:-300px;
+    }
+  
+    75% {
+      margin-top:0%;
+    }
+  
+    to {
+    margin-left:-300px;
+    }
+  }
+
+.barright:nth-child(1) {
+    transform: scaleY(1);
+    margin-left:-300px;
+    color: #7ed6be;
+}
+.barright:nth-child(2) {
+    transform: scaleY(1);
+    margin-left:-300px;
+    color: #ecf081;
+}
+.barright:nth-child(3) {
+    transform: scaleY(1);
+    margin-left:-300px;
+    color: #ffbe40;
+}
+
+
+@keyframes grow {
+    0% {
+        transform: scaleY(0);
+   }
+}
+/* You can add global styles to this file, and also import other style files */
+.item1{
+    width:300px;
+    height:400px;
+}
+.item2{
+    width:300px;
+    height:400px;
+}
+.item3{
+    width:300px;
+    height:400px;
+}
+.item4{
+    width:400px;
+    height:400px;
+}
+.item5{
+    width:400px;
+    height:400px;
+}
+.item6{
+    width:400px;
+    height:400px;
+}
+.left{
+    width:200px;
+    bottom:0px;
+    position: absolute;
+}
+.platform{
+    width:600px !important;
+    height:100%;
+    margin-bottom: -150px;
+    z-index: -1;
+}
+.right{
+    right:0px;
+    width:200px;
+    bottom:0px;
+    position: absolute;
+}
+
+.logo{
+    width:350px;
+    height:350px;
+    border-radius: 30px;;
+}
+.lamp{    
+    height:800px;
+    width:400px;
+}
+
+.lightcenter{
+    margin:0 auto;
+    text-align: center;
+}
+h1{
+    border:rgb(204, 58, 58) solid 1px;
+    color:rgb(204, 58, 58);
+    width:20%;
+    height:100px;
+    padding-top:60px;
+    margin:0 auto;    
+    font-size:40px;
+    border-radius: 20px;
+    margin-bottom:100px;
+    margin-top:100px;
+    border-right:none;
+    border-left:none;
+}
+h1:hover{
+    background:rgb(204, 58, 58);
+    color:white;
+}
+
