@@ -9,10 +9,12 @@ body {
 
 .assemblyleft {
     position: absolute;
+    top:40px;
 }
 
 .assemblyright {
     position: absolute;
+    top:40px;
 }
 
 .barleft {
@@ -24,8 +26,7 @@ body {
 
 @keyframes slidein {
     from {
-        margin-top:-200%;
-        margin-left:200px;
+        margin-left:-200%;
     }
   
     75% {
@@ -33,23 +34,22 @@ body {
     }
   
     to {
-      margin-left: 0%;
-      margin-left:200px;
+      margin-left: 80px;
     }
   }
   .barleft:nth-child(1) {
     transform: scaleY(1);
-    margin-left:200px;
+    margin-left:80px;
     color: #7ed6be;
 }
 .barleft:nth-child(2) {
     transform: scaleY(1);
-    margin-left:200px;
+    margin-left:80px;
     color: #ecf081;
 }
 .barleft:nth-child(3) {
     transform: scaleY(1);
-    margin-left:200px;
+    margin-left:80px;
     color: #ffbe40;
 }
 .barright {
@@ -61,32 +61,30 @@ body {
 
 @keyframes slideinright {
     from {
-        margin-top:-200%;
-        margin-left:-300px;
+        margin-left:200%;
     }
-  
     75% {
       margin-top:0%;
     }
   
     to {
-    margin-left:-300px;
+    margin-left:-30px;
     }
   }
 
 .barright:nth-child(1) {
     transform: scaleY(1);
-    margin-left:-300px;
+    margin-left:-30px;
     color: #7ed6be;
 }
 .barright:nth-child(2) {
     transform: scaleY(1);
-    margin-left:-300px;
+    margin-left:-30px;
     color: #ecf081;
 }
 .barright:nth-child(3) {
     transform: scaleY(1);
-    margin-left:-300px;
+    margin-left:-30px;
     color: #ffbe40;
 }
 
@@ -98,28 +96,28 @@ body {
 }
 /* You can add global styles to this file, and also import other style files */
 .item1{
-    width:300px;
-    height:400px;
+    width:100px;
+    height:200px;
 }
 .item2{
-    width:300px;
-    height:400px;
+    width:100px;
+    height:200px;
 }
 .item3{
-    width:300px;
-    height:400px;
+    width:100px;
+    height:200px;
 }
 .item4{
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
 }
 .item5{
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
 }
 .item6{
-    width:400px;
-    height:400px;
+    width:200px;
+    height:200px;
 }
 .left{
     width:200px;
@@ -140,9 +138,9 @@ body {
 }
 
 .logo{
-    width:350px;
-    height:350px;
-    border-radius: 30px;;
+    width:250px;
+    height:250px;
+    border-radius: 30px;
 }
 .lamp{    
     height:800px;
@@ -152,18 +150,19 @@ body {
 .lightcenter{
     margin:0 auto;
     text-align: center;
+    margin-top:80px;
 }
 h1{
     border:rgb(204, 58, 58) solid 1px;
     color:rgb(204, 58, 58);
     width:20%;
-    height:100px;
-    padding-top:60px;
+    height:40px;
+    padding-top:10px;
     margin:0 auto;    
-    font-size:40px;
+    font-size:20px;
     border-radius: 20px;
-    margin-bottom:100px;
-    margin-top:100px;
+    margin-bottom:20px;
+    margin-top:20px;
     border-right:none;
     border-left:none;
 }
